@@ -7,7 +7,6 @@ header{
   background-image: url("../images/favicon.jpg");
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: 300px;
 }
 
@@ -58,17 +57,15 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
   color: #464444;
-  padding: 20px 0;
  /* text-align: center;*/
 }
 
 .experience, .projects {
-  padding-left: 30px;
 }
 
 #image1, #image2, #image3, #image4 {
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -101,6 +98,10 @@ header{
 .intro{
   text-align: left;
 }
+
+#image1, #image2, #image3, #image4 {
+  height: 500px;
+  width: 600px;
 
 /*.experience, .projects {
   padding-top: 50px;
