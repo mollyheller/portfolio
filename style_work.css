@@ -58,13 +58,12 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
   color: #464444;
-  padding: 20px 0;
+  padding-left: 30px;
+  padding-right: 30px;
  /* text-align: center;*/
 }
 
 .experience, .projects {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 #image1, #image2, #image3, #image4 {
