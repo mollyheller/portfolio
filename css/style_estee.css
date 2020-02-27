@@ -1,14 +1,21 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
   color: #464444;
+  background: #ECEFFA;
+}
+
+main{
+  padding: 50px 150px;
+  line-height: 1.5;
 }
 
 header{
-  background-image: url("../images/favicon.jpg");
+  background-color: #BECBF6;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
   padding-right: 30px;
+  position: relative;
 }
 
 .intro{
@@ -28,7 +35,6 @@ header{
 
 .nav_links{
   padding-top: 25px;
-  list-style: none;
   flex-wrap: wrap;
 }
 
@@ -44,71 +50,28 @@ header{
 }
 
 h1{
-  font-size: 40px;
+  font-size: 80px;
   color: #464444;
 }
 
-body{
-  background: #FFC3C3;
-}
-
-h2 {
+h2{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
-  color: #464444;
-  text-align: center;
 }
-
-.experience, .projects {
-}
-
-#image1, #image2, #image3, #image4 {
-  height: 200px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 
 @media screen and (min-width: 850px){
-
-header{
-}
 
 .nav_links{
   display: flex;
   flex-direction: row;
+  padding-left: 0px;
 }
-
- .nav_item a{
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 80px;
-  }
-
-  h2 {
-    text-align: left;
-    font-size: 50px;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
 
 .intro{
   text-align: left;
 }
 
-#image1, #image2, #image3, #image4 {
-  height: 280px;
-  width: 400px;
-  display: inline;
-}
-
-
-.experience, .projects {
-  text-align: center;
-}
-
+ .nav_item a{
+    padding: 10px;
+  }
 }

@@ -8,8 +8,8 @@ header{
   background-image: url("../images/favicon.jpg");
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .intro{
@@ -28,10 +28,8 @@ header{
 }
 
 .nav_links{
-  border-top: 2px solid #464444;
-  border-bottom: 2px solid #464444;
-  background: #FCE7E7;
   flex-wrap: wrap;
+  padding-top: 25px;
 }
 
 .nav_item a{
@@ -58,33 +56,25 @@ h2{
 
 
 .about_par{
-  background: #FCE7E7;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
 }
 
-.list {
+ul {
   list-style-type: circle;
 }
 
-#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9 {
+img {
   height: 290px;
   width: 250px;
-  margin-right: auto;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
 }
 
-.gallery{
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
-.about_text{
+.about_one, .about_two, .about_three{
   display: none;
 }
 
@@ -104,48 +94,80 @@ h2{
     padding: 10px;
   }
 
-ul{
-  padding-left: 50px;
-}
-
-.about{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 240px auto auto auto;
-  text-align: left;
-  grid-column-gap: 10px;
-  line-height: 2;
+main{
+  line-height: 1.5;
 }
 
 .about_par{
-  font-size: 25px;
-  grid-column: 1/ -1;
+  padding: 50px 100px;
+}
+
+
+.about{
+  text-align: left;
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img1{
+  grid-column: 1/ span 1;
   grid-row: 1/ span 1;
 }
 
+.img1{
+  grid-column: 1/ span 1;
+  grid-row: 2/ span 1;
+}
+
+.img1{
+  grid-column: 1/ span 1;
+  grid-row: 3/ span 1;
+}
+
+.about_one{
+  grid-column: 2/ span 1;
+  grid-row: 1/ span 1;
+}
+
+
+.about_two{
+  grid-column: 2/ span 1;
+  grid-row: 2/ span 1;
+}
+
+.about_three{
+  grid-column: 2/ span 1;
+  grid-row: 3/ span 1;
+}
+
+.about_one, .about_two, .about_three{
+  display: inline;
+  line-height: 2;
+  padding-left: 50px; 
+}
+
+
+.about_par{
+}
+
 .about_title{
-  font-size: 30px;
 }
 
 .about_text{
   display: inline;
-  font-size: 20px;
-  grid-column: 2/-1;
-  grid-row: 2/ -1;
 }
 
-#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9 {
-  max-height: 190px;
-  max-width: 165px;
+img {
+  max-height: 175px;
+  max-width: 130px;
+  display: inline;
 }
 
-.gallery{
-  grid-row: 2/ -1;
-  grid-column: 1/ span 1;
-  flex-direction: row;
+h3{
+  font-size: 30px;
 }
-
-
 
 
 }
