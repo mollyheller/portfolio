@@ -26,9 +26,9 @@ h2{
 }
 
 .intro{
-  padding-top: 80px;
-  padding-bottom: 140px;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 a.skip {
