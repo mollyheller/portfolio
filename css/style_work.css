@@ -1,0 +1,121 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #464444;
+  background: #FFC3C3;
+}
+
+header{
+  background-image: url("../images/favicon.jpg");
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 400px;                /* Parallax effect */
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover; 
+}
+
+.intro{
+  padding-top: 80px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+a.skip {
+  position: absolute;
+  top: -40px;
+}
+
+a.skip:focus{
+  top: 10px;
+}
+
+.nav_links{
+  display: inline-block;
+  padding-top: 25px;
+}
+
+.nav_links a{
+  color: #464444;
+  padding: 0 25px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav_links a:hover {
+  color: white;
+}
+
+.nav_links .current{
+  color: grey;
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 50px;
+  color: #464444;
+}
+
+body{
+  background: #FFC3C3;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #464444;
+  padding: 40px 50px;
+}
+
+#image1, #image2, #image3, #image4 {
+  height: 200px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+@media screen and (min-width: 850px){
+
+header{
+}
+
+.nav_links{
+  display: flex;
+  flex-direction: row;
+}
+
+ .nav_item a{
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+.intro{
+  text-align: left;
+}
+
+#image1, #image2, #image3, #image4 {
+  height: 300px;
+  width: 400px;
+  display: inline;
+}
+
+
+.experience, .projects {
+  text-align: center;
+  padding: 0px 50px;
+}
+
+}

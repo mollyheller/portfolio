@@ -4,40 +4,87 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style_work.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Molly Heller</title>
   </head>
   <body>
-    <div class= "skip">
-      <a href= '#main'>Skip to Main Content</a> 
-    </div>
-    <header id= "main">
+    <a class= "skip" href= "#skip">Skip to Main Content</a> 
+  <header>
     <nav>
       <ul class="nav_links">
-        <li class="nav_item"><a href="index.html">About</a></li>
-        <li class="nav_item"><a href="work.html">Work</a></li>
-        <li class="nav_item"><a href="#resume">Resume</a></li>
-        <li class="nav_item"><a href="#contact">Contact</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a class= "current" href="work.html">Work</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class= intro>
       <h1>Here's some of my work:</h1>
     </div>
   </header>
-  <div class= "content">
-    <div class= "experience">
-      <h2>Experience</h2>
-      <div class= "logos">
-        <a href="estee.html"><img id="image1" src="images/elc.png" alt=""></a>
-        <img id="image2" src="images/ism.png" alt="" />
-      </div>
+  <main id= "skip">
+    <div class= logos>
+
+      <div class= experiences><h2>Experience</h2></div>
+
+        <a href="estee.html"><div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img id="estee" src="images/elc.png" alt="estee_logo">
+          </div>
+          <div class="flip-card-back">
+            <p>Summer Presidential Associate</p>
+            <p>June-August 2019</p>
+          </div>
+          </div>
+        </div></a>
+
+
+        <a href= "summit.html"><div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="summit" src="images/ism.png" alt="summit_logo">
+          </div>
+          <div class="flip-card-back">
+            <p>Co-Founder and Co-Director</p>
+            <p>September-November 2019</p>
+          </div>
+          </div>
+          </div></a>
+
+
+      <div class= projects><h2>Projects</h2></div>
+
+        <a href="unishop.html"><div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="unishop" src="images/unishop.png" alt="unishop_logo">
+            </div>
+          <div class="flip-card-back">
+            <p>Course Project</p>
+            <p>Winter 2019</p>
+          </div>
+          </div>
+          </div></a>
+
+        <a href= "venturewell.html"><div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img id="venturewell" src="images/venturewell.png" alt="vw_logo">
+            </div>
+          <div class="flip-card-back">
+            <p>Course Project</p>
+            <p>Winter-Fall 2019-2020</p>
+          </div>
+          </div>
+          </div></a>
+
     </div>
-    <div class= "projects">
-      <h2>Projects</h2>
-      <div class= "logos2">
-        <img id="image3" src="images/unishop.png" alt="" />
-        <img id="image4" src="images/venturewell.png" alt="" />
-      </div>
-    </div>
-  </div>
+</main>
+<footer>
+      <p>University of Michigan School of Information <br/>
+        &copy; Molly Heller, Web Design 2019-2020</p>
+</footer>
+</body>
+</html>
