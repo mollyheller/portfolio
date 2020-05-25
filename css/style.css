@@ -18,7 +18,7 @@ header{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h2{
@@ -73,6 +73,10 @@ ul {
   list-style-type: circle;
 }
 
+.about_one, .about_two, .about_three{
+  display: none;
+}
+
 
 /* Gallery */
 .images_1 > img, .images_2 > img, .images_3 > img {
@@ -82,23 +86,21 @@ ul {
   margin-left: auto;
   margin-right: auto;
   filter: brightness(110%) saturate(1.25);
-}
-
-.images_1 img:first-child, .images_2 img:first-child, .images_3 img:first-child{
   border: 2px solid #e8c0c8;
 }
 
-.images_1 img:last-child, .images_2 img:last-child, .images_3 img:last-child{
+/*.images_1 img:first-child, .images_2 img:first-child, .images_3 img:first-child{*/
+  border: 2px solid #e8c0c8;
+}
+
+/*.images_1 img:last-child, .images_2 img:last-child, .images_3 img:last-child{*/
   border: 2px solid #bf5067;
 }
 
-.images_1 img:nth-child(2), .images_2 img:nth-child(2), .images_3 img:nth-child(2){
+/*.images_1 img:nth-child(2), .images_2 img:nth-child(2), .images_3 img:nth-child(2){*/
   border: 2px solid #d18292;
 }
 
-.about_one, .about_two, .about_three{
-  display: none;
-}
 
 /* Animation */
 .rotate-center{animation:rotate-center .6s ease-in-out both}
@@ -225,7 +227,7 @@ input[type=submit]:hover {
 }
 
 .experience_head{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .experience_sub{
@@ -417,10 +419,11 @@ h2{
 
 h3{
   font-size: 30px;
-  text-shadow: 
+  /*text-shadow: */
     1px -1px 0 #e8c0c8, 
     -1px 2px 1px #d18292, 
     -2px 4px 1px #bf5067;
+  /**/
 }
 
 main{
