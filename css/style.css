@@ -10,7 +10,7 @@ header{
   flex-direction: column;
   padding-left: 30px;
   padding-right: 30px;
-  height: 200px;
+  height: 300px;
 }
 
 h1{
@@ -19,7 +19,7 @@ h1{
 }
 
 h2{
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .intro{
@@ -229,7 +229,7 @@ input[type=submit]:hover {
 
 .experience_sub{
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 
