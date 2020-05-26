@@ -15,10 +15,11 @@ header{
 
 h1{
   font-size: 30px;
+  padding-top: 20px;
 }
 
 h2{
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .intro{
@@ -308,17 +309,13 @@ footer{
 
 @media screen and (min-width: 768px){
 
-header{
-  background-image: url("../images/favicon.jpg");
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 400px;                /* Parallax effect */
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover; 
+h1{
+  font-size: 40px;
+  padding-top: 0px;
+}
+
+h2{
+  font-size: 30px;
 }
 
 .nav_links{
@@ -417,6 +414,19 @@ main{
 }
 
 @media screen and (min-width: 1146px){
+
+header{
+  background-image: url("../images/favicon.jpg");
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 400px;                /* Parallax effect */
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover; 
+}
 
 h1{
   font-size: 70px;
