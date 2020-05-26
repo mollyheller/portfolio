@@ -269,10 +269,12 @@ iframe{
   height: 800px;
 }
 
-
-.overview, .overview_summit{
+main{
   line-height: 1.25;
   font-size: 14px;
+}
+
+.overview, .overview_summit{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -297,10 +299,6 @@ iframe{
 
 /* unishop.html, venturewell.html*/
 
-.unishop_body, .vw_body{
-  line-height: 1.25;
-  font-size: 14px;
-}
 
 #prototype{
   height: 450px;
@@ -472,6 +470,7 @@ h3{
 main{
   line-height: 1.5;
   padding: 0px 150px;
+  font-size: 100%;
 }
 
 
