@@ -407,6 +407,15 @@ main{
   grid-column: 2/ span 1;
 }
 
+#estee1{
+  height: 270px;
+  width: 200px;
+}
+
+#estee2{
+  width: auto;
+  height: 200px;
+}
 
 .overview, .overview_summit, .unishop_body, .vw_body{
   line-height: 1.5;
@@ -568,15 +577,6 @@ main{
   grid-row: 3/ span 1;
 }
 
-#estee1{
-  height: 270px;
-  width: 200px;
-}
-
-#estee2{
-  width: auto;
-  height: 200px;
-}
 
 #summit1, #summit3, #summit4{
   height: 200px;
