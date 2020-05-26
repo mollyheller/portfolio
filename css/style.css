@@ -10,11 +10,7 @@ header{
   flex-direction: column;
   padding-left: 30px;
   padding-right: 30px;
-  height: 400px;                /* Parallax effect */
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover; 
+  height: 200px;
 }
 
 h1{
@@ -311,6 +307,19 @@ footer{
 }
 
 @media screen and (min-width: 768px){
+
+header{
+  background-image: url("../images/favicon.jpg");
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 400px;                /* Parallax effect */
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover; 
+}
 
 .nav_links{
   display: flex;
